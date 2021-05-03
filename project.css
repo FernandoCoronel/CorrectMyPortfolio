@@ -1,0 +1,27 @@
+.header{
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: crimson;
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1
+}
+.item:hover ing{
+    opacity: 0.33
+}
